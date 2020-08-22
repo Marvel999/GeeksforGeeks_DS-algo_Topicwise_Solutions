@@ -1,6 +1,7 @@
 package Array_List_In_Java;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * In this Program We will cover Some Basic Function Of ArrayList.
@@ -13,6 +14,8 @@ public class ArrayList_Basic_Function {
 public static void main(String args[]){
     ArrayList<String> frute=new ArrayList<>();
     ArrayList<String> vage=new ArrayList<>();
+    ArrayList<Integer> list=new ArrayList<>();
+
 
     frute.add("Mango");//add element to ArrayList.
     frute.add("Banana");
