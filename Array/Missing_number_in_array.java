@@ -27,4 +27,35 @@ public class Missing_number_in_array {
             total -= a[i];
         return total;
     }
+
+    static int getMissingNo1(int arr[], int n)
+    {
+
+        //  arr[n-1] = Integer.MAX_VALUE;
+
+        long mul=0;
+
+        for(int i = 0; i < n-1; i++)
+            mul=mul+arr[i];
+        //  arr[i] = scanner.nextInt();
+        long mul1=0;
+        for(int i = 1; i <=n; i++)
+            mul1=mul1+i;
+
+        //  Arrays.sort(arr);
+
+        //       boolean sol = false;
+        //       int j = 1;
+        // for(int i = 0; i < n-1; i++, j++) {
+        //     if(arr[i] != j) {
+        //         System.out.println(j);
+        //         sol = true;
+        //         break;
+        //     }
+        // }
+
+        // if(!sol)
+            return (int) (mul1-mul);
+
+    }
 }
