@@ -1,4 +1,4 @@
-package StringInJava;
+package String;
 
 public class ReverseStringWordByWord {
         public static void main(String[] args)
