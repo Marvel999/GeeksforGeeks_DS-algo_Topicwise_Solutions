@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.ArrayList;
+
 public class dublecate_array {
     // function to find repeating elements
     static void printRepeating(int arr[], int n)
